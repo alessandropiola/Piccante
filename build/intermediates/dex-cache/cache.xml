@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\Utente\Desktop\Sviluppo Android Studio\Piccante\app\build\intermediates\pre-dexed\debug\classes-8dc19df7640ef01ad7a771e148c3273a2d8f861b.jar"
+        jar="C:\Users\Utente\Desktop\Sviluppo Android Studio\Piccante\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\4.2.42\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e5f81129dfb3d02df80126512bc98278ed2bb40a"/>
+    <item
+        dex="C:\Users\Utente\Desktop\Sviluppo Android Studio\Piccante\app\build\intermediates\pre-dexed\debug\support-v4-19.0.1-971478325268cf316a8f7baccc0c03b60b53b715.jar"
+        jar="C:\Users\Utente\AppData\Local\Android\android-studio_0.8\sdk\extras\android\m2repository\com\android\support\support-v4\19.0.1\support-v4-19.0.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="587da9a481ffd341d2fa091704489b89845ddacd"/>
+
+</pre-dex-items>
