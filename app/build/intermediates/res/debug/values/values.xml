@@ -68,6 +68,8 @@
     <!-- From: file:/C:/Users/Utente/Desktop/Sviluppo%20Android%20Studio/Piccante/app/src/main/res/values/strings.xml -->
     <eat-comment />
 
+    <string name="MailUser">----</string>
+    <string name="NomeUser">Effettua il log.in</string>
     <string name="TitoloMainPage">Piccante</string>
     <string name="app_name">Piccante</string>
     <!-- From: file:/C:/Users/Utente/Desktop/Sviluppo%20Android%20Studio/Piccante/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.2.42/res/values/strings.xml -->

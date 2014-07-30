@@ -131,12 +131,17 @@ public class MainActivity extends Activity implements
     @Override
     public void onConnected(Bundle connectionHint) {
         Log.i(TAG, "GoogleApiClient connected");
-        Toast.makeText(this,"connessione avvenuta con successo",Toast.LENGTH_SHORT).show();// TODO: Start making API requests.
-        Toast.makeText(this,"Ciao, "+Plus.AccountApi.getAccountName(mGoogleApiClient),Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this,"connessione avvenuta con successo",Toast.LENGTH_SHORT).show();// TODO: Start making API requests.
+        //Toast.makeText(this,"Ciao, "+Plus.AccountApi.getAccountName(mGoogleApiClient),Toast.LENGTH_SHORT).show();
 
         Person currentPerson = Plus.PeopleApi
                 .getCurrentPerson(mGoogleApiClient);
-        Toast.makeText(this,currentPerson.getDisplayName(),Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this,currentPerson.getDisplayName(),Toast.LENGTH_SHORT).show();
+
+        TextView NomeUser = (TextView)findViewById(R.id.nomeuser);
+        NomeUser.setText("Benvenuto, "+currentPerson.getDisplayName());
+        //TextView MailUser = (TextView)findViewById(R.id.mailuser);
+        //NomeUser.setText("mail: "+Plus.AccountApi.getAccountName(mGoogleApiClient));
     }
 
     @Override
