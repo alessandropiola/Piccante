@@ -6960,6 +6960,8 @@
             <file
                 path="C:\Users\Utente\Desktop\Sviluppo Android Studio\Piccante\app\src\main\res\values\strings.xml"
                 qualifiers="" >
+                <string name="TitoloMainPage" >Piccante
+                </string>
                 <string name="app_name" >Piccante
                 </string>
             </file>
